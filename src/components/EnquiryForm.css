@@ -1,0 +1,9 @@
+.enquiry-form { display:flex; flex-direction:column; gap:12px; }
+.enquiry-form label { display:flex; flex-direction:column; gap:6px; font-size:14px; }
+.enquiry-form input, .enquiry-form textarea { padding:8px 10px; border-radius:6px; border:1px solid #ddd; }
+.field-error { color:crimson; font-size:13px; }
+.actions { display:flex; gap:8px; justify-content:flex-end; }
+.actions button { padding:8px 12px; border-radius:8px; border:none; background:#111827; color:white; cursor:pointer; }
+.form-status { padding:8px 10px; border-radius:6px; }
+.form-status.success { background:#ecfdf5; color:#065f46; }
+.form-status.error { background:#fff1f2; color:#9f1239; }

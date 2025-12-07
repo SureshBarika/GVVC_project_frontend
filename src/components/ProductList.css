@@ -1,0 +1,11 @@
+.product-list-page { padding: 24px 0; }
+.controls { display:flex; justify-content:space-between; gap:12px; margin-bottom:16px; align-items:center; }
+.search { display:flex; gap:8px; }
+.search input { padding:8px 10px; border-radius:6px; border:1px solid #ddd; min-width:220px; }
+.search button { padding:8px 12px; border-radius:6px; border: none; cursor:pointer; background:#1e90ff; color:white; }
+.filters select { padding:8px; border-radius:6px; border:1px solid #ddd; }
+.grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap:16px; }
+.status { padding:16px; text-align:center; }
+.status.error { color:crimson; }
+.pagination { display:flex; justify-content:center; gap:12px; align-items:center; margin-top:18px; }
+.pagination button { padding:8px 12px; border-radius:6px; border:1px solid #ddd; background:white; cursor:pointer; }
